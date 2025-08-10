@@ -1,9 +1,9 @@
-streamlit==1.48.0              # released Aug 5, 2025; supports Python up to 3.13 :contentReference[oaicite:0]{index=0}
-numpy==2.3.2                   # released Jul 24, 2025 :contentReference[oaicite:1]{index=1}
-pandas==2.3.1                  # released Jul 7, 2025 :contentReference[oaicite:2]{index=2}
-scikit-learn==1.7.1            # released Jul 18, 2025 :contentReference[oaicite:3]{index=3}
-tensorflow==2.19.0             # released Mar 11, 2025 :contentReference[oaicite:4]{index=4}
-plotly==6.2.0                  # released Jun 26, 2025 :contentReference[oaicite:5]{index=5}
-matplotlib==3.10.5             # released Jul 31, 2025 :contentReference[oaicite:6]{index=6}
-reportlab==4.4.3               # released Jul 23, 2025 :contentReference[oaicite:7]{index=7}
-torch==2.8.0                   # released Aug 6, 2025 :contentReference[oaicite:8]{index=8}
+streamlit==1.48.0
+numpy==2.3.2
+pandas==2.3.1
+scikit-learn==1.7.1
+tensorflow==2.20.0rc0
+plotly==6.2.0
+matplotlib==3.10.5
+reportlab==4.4.3
+torch==2.8.0
