@@ -22,7 +22,8 @@ PREDEFINED_DISEASES = {
 }
 @st.cache_resource
 def load_resources():
-    model = load_model('seq2seq_model.h5')
+    model = load_model('seq2seq_model.h5', custom_objects={'MyLayer': MyLayer})
+
 
     def load_tokenizer(filename):
         with open(filename, 'rb') as f:
@@ -182,3 +183,4 @@ def run():
 # Run the app
 if __name__ == "__main__":
     run()
+
