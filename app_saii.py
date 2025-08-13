@@ -5,7 +5,6 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import re
-from my_layers import MyLayer
 
 MAX_INPUT_LEN = 20
 MAX_OUTPUT_LEN = 30
@@ -23,7 +22,7 @@ PREDEFINED_DISEASES = {
 }
 @st.cache_resource
 def load_resources():
-    model = load_model('seq2seq_model.h5', custom_objects={'MyLayer': MyLayer})
+    model = load_model('seq2seq_model.h5')
 
 
     def load_tokenizer(filename):
@@ -184,6 +183,7 @@ def run():
 # Run the app
 if __name__ == "__main__":
     run()
+
 
 
 
