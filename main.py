@@ -1,7 +1,6 @@
 
 import streamlit as st
 import app_karthi
-import app_saii
 import app_puji2
 import app_sus
 
@@ -15,9 +14,8 @@ app_choice = st.sidebar.radio("Go to", ["Management System", "Prescription Gener
 # Run the selected app
 if app_choice == "Patient Monitoring":
     app_karthi.run()
-elif app_choice == "Prescription Generator":
-    app_saii.run()
 elif app_choice == "Management System":
     app_sus.run()
 elif app_choice == "Nurse Assistance":
     app_puji2.run()
+
